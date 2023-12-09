@@ -1,0 +1,35 @@
+Task0: 
+ file reading O(n)+O(n)=O(n)
+ get both records O(1)+O(1)
+ Final Big O notation: O(n)
+
+Task1:
+ file reading O(n)+O(n)=O(n)
+ iterating through texts:
+  first for loop: O(n)*nested for loop: O(2)*if condition: O(n)*append: O(1)=O(n^2)
+ iterating through calls:
+  first for loop: O(n)*nested for loop: O(2)*if condition: O(n)*append: O(1)=O(n^2)
+ total=O(n)+O(n^2)
+ Final Big O notation: O(n^2)
+
+Task2: 
+ file reading O(n)
+ for loop for calls: O(n)*nested for: O(2)*nested if:get item or append to dict: O(n)=O(n^2)
+ for loop for dict: O(n)
+ total=O(n)+O(n^2)+O(n)
+ Final Big O notation: O(n^2)
+
+Task3:
+ file reading O(n)
+ for loop for calls: O(n)*nested ifs:O(1)*last nested if(if prefix not in b_nums):O(n)=O(n^2)
+ sort: O(nlog(n))
+ total= (n)+O(n^2)+O(nlog(n))
+ Final Big O notation: O(n^2)
+
+Task4: 
+ file reading O(n)
+ for loop for calls: O(n)*O(2)=O(n)
+ for loop for callr_list: O(n)*nested if: O(n)+O(n))*O(1)=O(n): O(n^2)
+ sort: O(n(log(n))
+ total= O(n)+O(n^2)+O(nlog(n))
+ Final Big O notation: O(n^2)
